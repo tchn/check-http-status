@@ -1,0 +1,12 @@
+Usage: check_http_status.py [options] urlfile
+
+Options:
+  -h, --help            print help text
+  -v, --version         print program version
+  -i INTERVAL, --interval=INTERVAL
+                        set interval seconds of each request
+
+  file processing options:
+    -o OUTPUT_FILE, --out=OUTPUT_FILE
+                        write stdout to file
+    -s, --stats         show result summary
